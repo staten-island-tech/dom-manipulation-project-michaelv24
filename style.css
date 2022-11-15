@@ -1,0 +1,12 @@
+#big-black-box {
+    background-color: lightblue;
+  
+    font-size: 2vh;
+    color: indigo;
+    height: 100vh;
+    text-align: center;
+  }
+#btn {
+    font-size: 2vh;
+    margin-top: 200px;
+}
