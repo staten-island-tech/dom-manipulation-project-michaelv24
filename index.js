@@ -1,5 +1,6 @@
 const DOMSelectors = {
   button: document.getElementById("btn"),
+  box: document.getElementById  ("container-box"),
   text: document.querySelector("#text"),
   point: document.querySelectorAll(".point"),
   pointTwo: document.getElementById(".pointTwo"),
@@ -18,13 +19,15 @@ const DOMSelectors = {
   null: document.getElementById("point"), // if you try to access a class with getElementById, it will result in "null"
   empty: document.querySelector(".nothing"),
 };
-
+const button = document.getElementById("btn");
+console.log(button);
 console.log(DOMSelectors.box);
 console.log(DOMSelectors.button);
 console.log(DOMSelectors.text);
 console.log(DOMSelectors.points);
 console.log(DOMSelectors.points[0]); // this returns the first ever element in the document with class 'point'
 console.log(DOMSelectors.null);
-console.log(DOMSelectors.nothing);
+console.log(DOMSelectors.nothing);\
 // when you look in the console after logging DOMSelectors, you will be able to see the elements that the DOMSelector accesses.
 // if you have a DOMSelector for an element that doesn't exist, it will show up as undefined.
+  DOMSelectors.box.insertAdjacentHTML("beforeend", '<h1>We are an H1</h1>')

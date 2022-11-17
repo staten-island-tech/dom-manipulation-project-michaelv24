@@ -1,12 +1,12 @@
-#big-black-box {
-    background-color: lightblue;
+#page {
+  background-color: lightblue;
+  color: indigo;
   
-    font-size: 2vh;
-    color: indigo;
-    height: 100vh;
-    text-align: center;
-  }
+  text-align: left;
+}
 #btn {
-    font-size: 2vh;
-    margin-top: 200px;
+  font-size: 2vh;
+}
+.name {
+  
 }
