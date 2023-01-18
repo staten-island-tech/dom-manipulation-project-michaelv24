@@ -4,30 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js" type="module"></script>
     <title>Movie Poster</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body id="page">
     <h1>Make a Movie Poster</h1>
-    <form action="/action_page.php" method="get">
+    <div>
+      <section>
+    <form id="form" onsubmit="return false">
+     <div class="inputting">
       <label for="name">Movie Name:</label>
-      <input type="text" id="name" name="name" />
+      <input type="text" id="name" name="name" required/>
+    </div>
+    <div class="inputting">
       <label for="rating">Rating:</label>
-      <input type="text" id="rating" name="rating" />
-      <label for="agegroup">Age Group:</label>
-      <input type="text" id="agegroup" name="agegroup" />
+      <input type="text" id="rating" name="rating" required/>
+      <div>
+    <div class="inputting">
+      <label for="imagelink">Image Link:</label>
+      <input type="text" id="imagelink" name="imagelink" required/>
+      <div>
+    <div class="submitting">    
       <input type="submit" value="Submit" />
+    <div>
     </form>
-    <!-- <form id="page">
-      <h1 id="text">Make a Movie Poster</h1>
-      <input type="text" class="name" />Name<input />
-      <input type="text" class="posterimage" />Insert an image of the
-      movie<input /> <input type="text" class="rating" />Rating by IMDB<input />
-      <input type="text" class="age" />What age group are you attempting to
-      target?<input />
-      <button type="button" id="btn">Submit</button>
-    </form> -->
-
-    <script src="main.js"></script>
+    </div>
+  </section>
+    <section id="list">
+    </section>
+   
   </body>
 </html>

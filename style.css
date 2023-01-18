@@ -7,6 +7,18 @@
 #btn {
   font-size: 2vh;
 }
-.name {
-  
+.movieimg{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+.movieBox{
+  border: 5px solid black;
+  width:200px;
+}
+#list{
+  display:flex;
+  flex-direction: row;
+  gap: 10px;
 }
